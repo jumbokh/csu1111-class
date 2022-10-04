@@ -67,4 +67,74 @@ ExecStart=/bin/bash -c "/usr/local/bin/jupyter-lab --no-browser --notebook-dir=/
 </pre>
 ##
 ### Mail ip
+* [Reference 1](https://github.com/jumbokh/raspberrypi-get-ip)
+#### Install and configure msmtp
+<pre>
+sudo apt-get install msmtp msmtp-mta
+</pre>
+####  add your credentials:  `~/.msmtprc` or `$XDG_CONFIG_HOME/msmtp/config`
+```
+# Generics
+defaults
+auth           on
+tls            on
+# following is different from ssmtp:
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+# user specific log location, otherwise use /var/log/msmtp.log, however, 
+# this will create an access violation if you are user pi, and have not changes the access rights
+logfile        ~/.msmtp.log
+
+# Gmail specifics
+account        gmail
+host           smtp.gmail.com
+port           587
+
+from          root@raspi-buster
+user           your-gmail-accountname@gmail.com
+password       your-gmail-account-password
+
+# Default
+account default : gmail
+```
+Test it:
+
+```
+$ echo "Hello world!" | msmtp you@example.com
+```
+## Create the email sending script
+
+Create a file named `mail_ip.sh` (or whatever you prefer) and edit it adding your email address:
+
+```
+mailto="you@example.com"
+ip=`ip route list | awk '{print NR,$(NF-2)}'`
+
+{
+	echo To: $mailto
+       	echo "Subject: [RasPi] My IP"
+	echo "$ip"
+} | /usr/bin/msmtp $mailto
+echo "$ip"
+echo "Finished running at `date`"
+```
+#### change file to executable mode
+```
+$ chmod +x mail_ip.sh
+$ ./mail_ip.sh
+```
+## Set your script to run on reboot
+
+There are different ways to do this, we'll use `crontab` here.
+
+```
+$ crontab -e
+```
+
+Add the following line to the end of the file (make sure to use the absolute path to the script):
+
+```
+MAILTO=you@example.com
+@reboot sleep 120 && /home/pi/mail_ip.sh > /home/pi/mail_ip.log 2>&1
+```
+##
 ### 開發環境
