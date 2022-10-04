@@ -1,15 +1,15 @@
 ### Google-> 管理你的帳戶
-![安全性](https://github.com/jumbokh/csu1111-class/blob/main/robots/secure1.PNG)
+![安全性](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/secure1.PNG)
 ### 安全性-->應用程式密碼
-![應用程式](https://github.com/jumbokh/csu1111-class/blob/main/robots/secure2.PNG)
+![應用程式](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/secure2.PNG)
 ### 選取應用程式
-![選取應用程式](https://github.com/jumbokh/csu1111-class/blob/main/robots/secure3.PNG)
+![選取應用程式](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/secure3.PNG)
 ### 選取裝置
-![選取裝置](https://github.com/jumbokh/csu1111-class/blob/main/robots/secure4.PNG)
+![選取裝置](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/secure4.PNG)
 ### 取名
-![取名](https://github.com/jumbokh/csu1111-class/blob/main/robots/secure5.PNG)
+![取名](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/secure5.PNG)
 ### 系統產生密碼
-![密碼](https://github.com/jumbokh/csu1111-class/blob/main/robots/secure6.PNG)
+![密碼](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/secure6.PNG)
 ### 修改 `~/msmtprc`
 '''
 # Generics
