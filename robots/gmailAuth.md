@@ -9,7 +9,7 @@
 ### 取名
 ![取名](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/secure5.PNG)
 ### 系統產生密碼
-![密碼](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/secure6.PNG)
+![密碼](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/secure6a.PNG)
 ### 修改 `~/msmtprc`
 '''
 # Generics
