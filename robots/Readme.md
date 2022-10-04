@@ -66,7 +66,7 @@ ExecStart=/bin/bash -c "/usr/local/bin/jupyter-lab --no-browser --notebook-dir=/
 ...
 </pre>
 ##
-### Mail ip
+### Mail ip [gmail 認證密碼](https://github.com/jumbokh/csu1111-class/blob/main/robots/gmailAuth.md)
 * [Reference 1](https://github.com/jumbokh/raspberrypi-get-ip)
 #### Install and configure msmtp
 <pre>
