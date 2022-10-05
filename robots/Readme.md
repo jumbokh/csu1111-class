@@ -138,3 +138,42 @@ MAILTO=you@example.com
 ```
 ##
 ### 開發環境
+#### 安裝 Node-Red [參考](https://atceiling.blogspot.com/2019/07/raspberry-pi-51node-reddashboard.html)
+'''
+sudo apt-get update
+sudo apt-get upgrade
+sudo rpi-update
+'''
+#### 安裝 nodejs
+'''
+bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
+node -v
+npm -v
+'''
+* 手動
+'''
+sudo apt-get install nodejs-legacy
+sudo apt-get install npm
+'''
+#### 安裝 node red
+'''
+sudo npm install -g --unsafe-perm node-red node-red-admin 
+'''
+#### 啟動
+'''
+node-red-pi --max-old-space-size=256
+'''
+* 或
+'''
+node-red-start
+'''
+* 瀏覽器輸入: http://ip:1880  例； http://192.168.1.128:1880
+#### 設定開機啟動
+* sudo systemctl enable nodered.service
+#### 安裝 dashboard
+'''
+$ node-red-stop
+$ cd ~/.node-red
+$ npm install node-red-dashboard
+'''
+* http://192.168.1.128:1880/ui
