@@ -33,7 +33,7 @@ BeautifulSoup 模組：網頁解析
 ##
 #### 網頁 [Python – 最強入門邁向數據科學之路 – 王者歸來](https://deepmind.com.tw/product/python-%e6%9c%80%e5%bc%b7%e5%85%a5%e9%96%80%e9%82%81%e5%90%91%e6%95%b8%e6%93%9a%e7%a7%91%e5%ad%b8%e4%b9%8b%e8%b7%af-%e7%8e%8b%e8%80%85%e6%ad%b8%e4%be%86%ef%bc%88%e5%85%a8%e5%bd%a9%e5%8d%b0/)
 * [地址查詢地圖](https://github.com/jumbokh/csu1111-class/blob/main/DataScience/pysrc/ch28/ch28_2.py)
-* [requests]([https://github.com/jumbokh/csu1111-class/blob/main/DataScience/pysrc/ch28/ch28_5.py](https://github.com/jumbokh/csu1111-class/blob/main/DataScience/pysrc/ch28/ch28_3.py))
+* [requests](https://github.com/jumbokh/csu1111-class/blob/main/DataScience/pysrc/ch28/ch28_3.py)
 * [response物件](https://github.com/jumbokh/csu1111-class/blob/main/DataScience/pysrc/ch28/ch28_4.py)
 * [使用BeautifulSoup模組](https://github.com/jumbokh/csu1111-class/blob/main/DataScience/pysrc/ch28/ch28_11.py)
 * [下載十二星座所有圖片](https://github.com/jumbokh/csu1111-class/blob/main/DataScience/pysrc/ch28/ch28_27.py)
