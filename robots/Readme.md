@@ -1,3 +1,8 @@
+### Default Login
+```
+login: pi
+password: raspbarry
+```
 ### Jupyter-Lab 安裝
 * [Reference 1](https://medium.com/analytics-vidhya/jupyter-lab-on-raspberry-pi-22876591b227)
 * [Reference 2](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
