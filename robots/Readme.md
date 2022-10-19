@@ -3,6 +3,9 @@
 login: pi
 password: raspbarry
 ```
+### 系統安裝
+* [參考](https://github.com/jumbokh/rpi_class/tree/master/Linux2021#readme)
+
 ### Jupyter-Lab 安裝
 * [Reference 1](https://medium.com/analytics-vidhya/jupyter-lab-on-raspberry-pi-22876591b227)
 * [Reference 2](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
