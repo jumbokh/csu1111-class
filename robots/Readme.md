@@ -1,6 +1,6 @@
 ### 
 * [DonkeyCar for PiRacer Pro](https://pan.baidu.com/s/1xvlqA2Ct0mxiUfOzekcFaA) 
-#### 提取密碼: 
+#### 提取密碼: wsdz
 ### Default Login
 ```
 login: pi
