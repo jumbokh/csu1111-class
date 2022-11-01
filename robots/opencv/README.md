@@ -1,4 +1,5 @@
 ### Opencv 影像處理
+* [official YOLO7|face detection](https://www.youtube.com/watch?v=mHsmWmVbjHs)
 * [ppt](https://drive.google.com/drive/u/1/folders/1m-F4-XVig1VQBTvubo4BYn_gXd0ujOP-)
 * [DL_Books](https://github.com/mc6666/DL_Book)
 * [Canny边缘检测](https://www.kancloud.cn/aollo/aolloopencv/271603)
