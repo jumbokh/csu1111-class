@@ -1,0 +1,9 @@
+### Opencv 影像處理
+* [DL_Books](https://github.com/mc6666/DL_Book)
+* [Canny边缘检测](https://www.kancloud.cn/aollo/aolloopencv/271603)
+* [使用 OpenCV 與 Dlib 開發人臉偵測程式](https://blog.gtwang.org/programming/python-opencv-dlib-face-detection-implementation-tutorial/?fbclid=IwAR2rgyOjBNFUbiqvcViE-dQC2XmFNKsHbl1eVP7QktTe6vEmpiX8taXKlsY)
+* [使用 Python 與 OpenCV 擷取網路攝影機影像](https://blog.gtwang.org/programming/opencv-webcam-video-capture-and-file-write-tutorial/)
+* [cvColab](https://github.com/jumbokh/python_learn/blob/master/notebooks/cvColab.ipynb)
+    * [image](https://github.com/jumbokh/python_learn/blob/master/notebooks/image.jpg)
+    * [human-740259_1280.jpg](https://github.com/jumbokh/python_learn/blob/master/notebooks/human-740259_1280.jpg)
+* [image analysis for beginners](https://towardsdatascience.com/image-analysis-for-beginners-how-to-read-images-video-webcam-and-screen-3778e26760e2)
