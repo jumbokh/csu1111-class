@@ -1,4 +1,5 @@
 ### Opencv 影像處理
+* [ppt](https://drive.google.com/drive/u/1/folders/1m-F4-XVig1VQBTvubo4BYn_gXd0ujOP-)
 * [DL_Books](https://github.com/mc6666/DL_Book)
 * [Canny边缘检测](https://www.kancloud.cn/aollo/aolloopencv/271603)
 * [使用 OpenCV 與 Dlib 開發人臉偵測程式](https://blog.gtwang.org/programming/python-opencv-dlib-face-detection-implementation-tutorial/?fbclid=IwAR2rgyOjBNFUbiqvcViE-dQC2XmFNKsHbl1eVP7QktTe6vEmpiX8taXKlsY)
