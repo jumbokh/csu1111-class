@@ -9,3 +9,16 @@
     * [image](https://github.com/jumbokh/python_learn/blob/master/notebooks/image.jpg)
     * [human-740259_1280.jpg](https://github.com/jumbokh/python_learn/blob/master/notebooks/human-740259_1280.jpg)
 * [image analysis for beginners](https://towardsdatascience.com/image-analysis-for-beginners-how-to-read-images-video-webcam-and-screen-3778e26760e2)
+
+### [進階的影像應用](https://github.com/mc6666/DL_Book)
+```
+9.1 語義分割(Semantic Segmentation)介紹
+9.2 自動編碼器(AutoEncoder)
+9.3 語義分割(Semantic segmentation)實作
+9.4 實例分割(Instance Segmentation)
+9.5 風格轉換(Style Transfer) --人人都可以是畢卡索
+9.6 臉部辨識(Facial Recognition)
+9.7 光學文字辨識(OCR)
+9.8 車牌辨識(ANPR)
+9.9 卷積神經網路的缺點
+```
