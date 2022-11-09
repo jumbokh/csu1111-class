@@ -11,6 +11,14 @@ password: raspbarry
 * [微雪wiki](https://www.waveshare.net/wiki/PiRacer_AI_Kit)
 * [docx](https://github.com/jumbokh/csu1111-class/blob/main/robots/%E6%A8%B9%E8%8E%93%E6%B4%BE%E5%85%A5%E9%96%80%E6%95%99%E6%9D%90.docx)
 * [交大講義](https://github.com/jumbokh/csu1111-class/blob/main/robots/Raspberry%20Pi_day%201.pdf)
+### Kali Linux
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install kali-linux-everything
+sudo dpkg-reconfigure locales
+中文化, 參考 https://github.com/jumbokh/Network-class/blob/main/kaliChinese.md
+```
 ### 首次設定
 * [first time](https://github.com/jumbokh/rpi_class/blob/master/Installation/first_time_setting.md)
 ### Jupyter-Lab 安裝
