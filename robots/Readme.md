@@ -1,6 +1,7 @@
-### [Tensorflow 2 入門](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)
+
 ## Machine Learning 使用 Tensorflow2 and Keras
 ##
+### [Tensorflow 2 入門](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)
 ### [官方教材](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)
 ### [簡單粗暴 TensorFlow 2 ](https://tf.wiki/zh_hant/)
 ### [第一章 簡報](https://github.com/jumbokh/class1091/blob/master/ML/docs/tf2-class.pptx)
