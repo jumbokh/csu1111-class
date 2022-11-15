@@ -21,17 +21,7 @@ sudo dpkg-reconfigure locales
 ```
 ### 首次設定
 * [first time](https://github.com/jumbokh/rpi_class/blob/master/Installation/first_time_setting.md)
-### Jupyter-Lab 安裝
-* [Reference 1](https://medium.com/analytics-vidhya/jupyter-lab-on-raspberry-pi-22876591b227)
-* [Reference 2](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
-#### 準備
-<pre>
-$ sudo apt-get update
-$ sudo apt-get install python3-pip
-$ sudo pip3 install setuptools
-$ sudo apt install libffi-dev
-$ sudo pip3 install cffi
-</pre>
+
 #### [UBUNTU 安裝ssh](https://www.ewdna.com/2012/06/ubuntu-ssh-server.html)
 ```
 要安裝 ssh server, 以下兩行指令都可以
@@ -93,6 +83,17 @@ sudo dpkg-reconfigure locales
 sudo fc-cache -fv
 重新開機讓設定生效
 ```
+### Jupyter-Lab 安裝
+* [Reference 1](https://medium.com/analytics-vidhya/jupyter-lab-on-raspberry-pi-22876591b227)
+* [Reference 2](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
+#### 準備
+<pre>
+$ sudo apt-get update
+$ sudo apt-get install python3-pip
+$ sudo pip3 install setuptools
+$ sudo apt install libffi-dev
+$ sudo pip3 install cffi
+</pre>
 #### 安裝 jupyterlab
 * pip3 install jupyterlab
 <pre>
