@@ -32,6 +32,67 @@ $ sudo pip3 install setuptools
 $ sudo apt install libffi-dev
 $ sudo pip3 install cffi
 </pre>
+#### [UBUNTU 安裝ssh](https://www.ewdna.com/2012/06/ubuntu-ssh-server.html)
+```
+要安裝 ssh server, 以下兩行指令都可以
+# apt-get install ssh
+# apt-get install openssh-server
+
+安裝後可以修改一些 ssh 的設定, 如port, 密碼認證, root登入等
+# vim /etc/ssh/sshd_config
+Port 22
+PasswordAuthentication yes
+PermitRootLogin yes -> 是否開放 root 登入
+
+更改完存檔後記得重啟服務
+# /etc/init.d/ssh restart
+```
+#### [遠端桌面連線](https://www.ichiayi.com/tech/ubuntu_xrdp)
+```
+sudo apt install xfce4 xrdp
+echo xfce4-session > ~/.xsession
+sudo vi /etc/xrdp/startwm.sh
+```
+```
+:
+if test -r /etc/profile; then
+        . /etc/profile
+fi
+
+startxfce4
+test -x /etc/X11/Xsession && exec /etc/X11/Xsession
+exec /bin/sh /etc/X11/Xsession
+sudo service xrdp restart
+netstat -na | grep 3389
+```
+#### 中文設定
+```
+sudo apt-get install  language-pack-zh-han*
+sudo apt install $(check-language-support)
+sudo apt-get install font-manager
+更改預設為中文環境
+sudo vi /etc/default/locale
+LANG="zh_TW.UTF-8"
+LANGUAGE="zh_TW:zh:en_US:en"
+sudo vi /etc/environment
+LANG="zh_TW.UTF-8"
+LANGUAGE="zh_TW:zh"
+LC_NUMERIC="zh_TW"
+LC_TIME="zh_TW"
+LC_MONETARY="zh_TW"
+LC_PAPER="zh_TW"
+LC_NAME="zh_TW"
+LC_ADDRESS="zh_TW"
+LC_TELEPHONE="zh_TW"
+LC_MEASUREMENT="zh_TW"
+LC_IDENTIFICATION="zh_TW"
+LC_ALL="zh_TW.UTF-8"
+sudo dpkg-reconfigure locales
+選擇 zh_TW.UTF-8 UTF-8
+
+sudo fc-cache -fv
+重新開機讓設定生效
+```
 #### 安裝 jupyterlab
 * pip3 install jupyterlab
 <pre>
