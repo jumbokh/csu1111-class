@@ -1,4 +1,12 @@
 ### [Tensorflow 2 入門](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)
+## Machine Learning 使用 Tensorflow2 and Keras
+##
+### [官方教材](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)
+### [簡單粗暴 TensorFlow 2 ](https://tf.wiki/zh_hant/)
+### [第一章 簡報](https://github.com/jumbokh/class1091/blob/master/ML/docs/tf2-class.pptx)
+### [第二章 簡報](https://github.com/jumbokh/class1091/blob/master/ML/docs/CH02.ppt)
+### [第三章 簡報](https://github.com/jumbokh/class1091/blob/master/ML/docs/CH03a.ppt)
+##
 ### 
 * [DonkeyCar for PiRacer Pro](https://pan.baidu.com/s/1xvlqA2Ct0mxiUfOzekcFaA) 
 #### 提取密碼: wsdz
