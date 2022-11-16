@@ -8,7 +8,8 @@
 ### [第二章 簡報](https://github.com/jumbokh/class1091/blob/master/ML/docs/CH02.ppt)
 ### [第三章 簡報](https://github.com/jumbokh/class1091/blob/master/ML/docs/CH03a.ppt)
 ##
-### 
+### [Lab for TF2](https://github.com/jumbokh/class1091/tree/master/ML/MMSLAB-TF2/MMSLAB-TF2)
+##
 * [DonkeyCar for PiRacer Pro](https://pan.baidu.com/s/1xvlqA2Ct0mxiUfOzekcFaA) 
 #### 提取密碼: wsdz
 ### Default Login
