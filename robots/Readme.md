@@ -23,6 +23,7 @@ password: raspbarry
 * [docx](https://github.com/jumbokh/csu1111-class/blob/main/robots/%E6%A8%B9%E8%8E%93%E6%B4%BE%E5%85%A5%E9%96%80%E6%95%99%E6%9D%90.docx)
 * [交大講義](https://github.com/jumbokh/csu1111-class/blob/main/robots/Raspberry%20Pi_day%201.pdf)
 ### Kali Linux
+### [kali for Raspberry pi](https://linuxhint.com/install_kali_linux_raspberry_pi_4/)
 ```
 sudo apt-get update
 sudo apt-get upgrade
