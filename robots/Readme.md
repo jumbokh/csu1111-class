@@ -31,6 +31,7 @@ sudo apt-get install kali-linux-everything
 sudo dpkg-reconfigure locales
 中文化, 參考 https://github.com/jumbokh/Network-class/blob/main/kaliChinese.md
 ```
+* ![github list](https://github.com/jumbokh/csu1111-class/blob/main/robots/images/Github-list.jpg)
 ### 首次設定
 * [first time](https://github.com/jumbokh/rpi_class/blob/master/Installation/first_time_setting.md)
 
