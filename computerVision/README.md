@@ -1,3 +1,12 @@
+### Notebooks
+* [Keras DL](https://github.com/jumbokh/ML-Class/blob/main/notebooks/Ch20_Keras_DL.ipynb)
+* [02_1_用CNN圖形辨識](https://github.com/jumbokh/ML-Class/blob/main/notebooks/02_1_%E7%94%A8CNN%E5%9C%96%E5%BD%A2%E8%BE%A8%E8%AD%98%EF%BC%88%E9%82%84%E6%98%AFMNIST)modeify.ipynb)
+* [Lab4 bad](https://github.com/jumbokh/ML-Class/blob/main/notebooks/Lab4_bad.ipynb)
+* [cifar10-tensorflow](https://github.com/jumbokh/ML-Class/blob/main/notebooks/cifar10-tensorflow.ipynb)
+* [image classification](https://github.com/jumbokh/ML-Class/blob/main/notebooks/image_classification.ipynb)
+* [YOLO Keras conversion](https://github.com/jumbokh/nknu-class/blob/main/CNN/YOLO/08_05_YOLO_Keras_Conversion.ipynb)
+* [YOLO_Keras_Test](https://github.com/jumbokh/nknu-class/blob/main/CNN/YOLO/08_06_YOLO_Keras_Test.ipynb)
+* [CNN Notebooks](https://github.com/jumbokh/nknu-class/tree/main/CNN/notebooks)
 ### 參考網頁
 * [蔡炎龍老師MOOC](https://github.com/yenlung/Deep-Learning-MOOC)
 * [蔡炎龍老師 深度學習基礎](https://github.com/jumbokh/Deep-Learning-Basics)
