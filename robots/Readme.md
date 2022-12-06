@@ -1,6 +1,8 @@
 
 ## Machine Learning 使用 Tensorflow2 and Keras
 ##
+* Yolov4-tensorflow $ python detect.py --image ./data/000000493952.jpg 
+* darknet $ ./darknet detect cfg/yolov3.cfg yolov3.weights ../cocoimg/000000528299.jpg
 ### [Tensorflow 2 入門](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)
 ### [官方教材](https://github.com/czy36mengfei/tensorflow2_tutorials_chinese)
 ### [簡單粗暴 TensorFlow 2 ](https://tf.wiki/zh_hant/)
