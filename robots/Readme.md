@@ -198,8 +198,8 @@ password       your-gmail-account-password
 # Default
 account default : gmail
 ```
-chmod 600 ~/.msmtprc
-Test it:
+#### chmod 600 ~/.msmtprc
+#### Test it:
 
 ```
 $ echo "Hello world!" | msmtp you@example.com
