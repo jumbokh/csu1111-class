@@ -198,6 +198,7 @@ password       your-gmail-account-password
 # Default
 account default : gmail
 ```
+chmod 600 ~/.msmtprc
 Test it:
 
 ```
