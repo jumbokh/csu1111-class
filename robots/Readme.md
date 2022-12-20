@@ -3,7 +3,7 @@
 * [Google Vision API example](https://ikala.cloud/cloud-automl-vision-application-1/)
 * [GCP class](https://github.com/jumbokh/gcp_class/tree/master/VISION)
 * [使用 Bing 影像搜尋](https://learn.microsoft.com/zh-tw/azure/cognitive-services/bing-image-search/quickstarts/python)
-    * [search url update](search_url = "https://api.bing.microsoft.com/v7.0/images/search")
+#### search url update:(search_url = "https://api.bing.microsoft.com/v7.0/images/search")
 #### search_url = "https://api.bing.microsoft.com/v7.0/images/search"
 #### [Face recognition with OpenCV, Python, and deep learning](https://pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/)
 #### [How to (quickly) build a deep learning image dataset](https://pyimagesearch.com/2018/04/09/how-to-quickly-build-a-deep-learning-image-dataset/)
