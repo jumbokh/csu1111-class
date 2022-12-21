@@ -1,3 +1,7 @@
+### ESP32 BT and voice
+* [BT](https://github.com/jumbokh/esp32-class/tree/master/hs1018)
+* [Lab-voice](https://github.com/jumbokh/esp32-class/tree/master/lab-voice)
+
 
 #### 
 * [Google Vision API example](https://ikala.cloud/cloud-automl-vision-application-1/)
