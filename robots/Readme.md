@@ -35,6 +35,7 @@ login: pi
 password: raspbarry
 ```
 ### 系統安裝
+* [Termux安裝完整版Linux(Ubuntu)詳細步驟](https://iter01.com/698228.html)
 * [參考1.](https://github.com/jumbokh/rpi_class/tree/master/Linux2021#readme)
 * [微雪wiki](https://www.waveshare.net/wiki/PiRacer_AI_Kit)
 * [docx](https://github.com/jumbokh/csu1111-class/blob/main/robots/%E6%A8%B9%E8%8E%93%E6%B4%BE%E5%85%A5%E9%96%80%E6%95%99%E6%9D%90.docx)
