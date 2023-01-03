@@ -1,5 +1,5 @@
 ### [chatGPT API](https://github.com/jumbokh/csu1111-class/blob/main/robots/ChatGPT%20x%20Colab%20%E6%89%93%E9%80%A0%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA.pptx)
-* [chatGPT api colab]()
+* [chatGPT api colab](https://github.com/jumbokh/csu1111-class/blob/main/robots/notebooks/JumbochatGPT1231.ipynb)
 ### ESP32 BT and voice
 * [BT](https://github.com/jumbokh/esp32-class/tree/master/hs1018)
 * [Lab-voice](https://github.com/jumbokh/esp32-class/tree/master/lab-voice)
