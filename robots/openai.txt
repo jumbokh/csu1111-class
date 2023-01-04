@@ -15,7 +15,7 @@ response = openai.Completion.create(
 def askchatgpt(Question):
     response = openai.Completion.create(
     model="text-davinci-003",
-    prompt=Q,
+    prompt=Question,
     temperature=0.7,
     max_tokens=256,
     top_p=1,
@@ -23,5 +23,19 @@ def askchatgpt(Question):
     presence_penalty=0
     )
     return response['choices'][0]['text'].lstrip()
+
+string = input("輸入一個問題==> ")
+print(askchatgpt(string))
+
+!pip install gradio
+import gradio as gr
+#create interface object
+gui = gr.Interface(fn=askchatgpt, #callable function
+                   inputs="text", #input format
+                   outputs="text") #output format
+#display the interface
+gui.launch()
+
+
     
  # https://docs.google.com/document/d/11kmrrZbUxdYBxDXzWMy_OYtW1KdLJNoixInRq02W5cU/edit?usp=sharing
