@@ -23,3 +23,5 @@ def askchatgpt(Question):
     presence_penalty=0
     )
     return response['choices'][0]['text'].lstrip()
+    
+ # https://docs.google.com/document/d/11kmrrZbUxdYBxDXzWMy_OYtW1KdLJNoixInRq02W5cU/edit?usp=sharing
