@@ -298,3 +298,4 @@ $ cd ~/.node-red
 $ npm install node-red-dashboard
 ```
 * http://192.168.1.128:1880/ui
+* ![GPT3GPT4](https://github.com/jumbokh/csu1111-class/blob/main/robots/Gpt3Gpt4.jpg)
